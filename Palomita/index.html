@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Para mi palomita 💞</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="img/nosotros.jpg"></img>
+            <h1 class="hh" id="name">Mi enojona hermosa le pregunto algo</h1>
+            <p class="pp" id="question">¿Quiere pasar el 14 conmigo?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">No</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Sii</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>intenta apretarlo de nuevo po 🙄</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>Te amo muxito mi niña linda 💗</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
